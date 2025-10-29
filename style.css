@@ -1,0 +1,222 @@
+div>ul>li {
+    list-style: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1em;
+    padding: 30px;
+    margin-top: 80px;
+
+
+
+}
+
+
+div>ul>li:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.icon2:hover {    width: 60px;
+height: 60px;
+    cursor: pointer;
+
+}
+
+.logo {
+    display: inline;
+    height: 30px;
+    width: 20px;
+
+}
+
+.navbar {
+  
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    margin-top: 30px;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 1.5;
+    background-color:none;
+    border: none;
+}
+.btn:hover {
+    background-color: rgb(195, 193, 193);
+    color: white;
+    zoom: normal;
+}
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    background-color: rgba(112, 112, 112, 0.571) ;
+   border-radius: 50%;
+   
+}
+.icon1:hover {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.svg {
+display: flex;
+justify-content: space-evenly;
+gap: 20px;
+
+}
+
+.icon2 {
+    height: 40px;
+    width:50px;
+}
+.search {
+    width: 800px;
+height: 60px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-inline:auto; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: justify;
+   
+   
+    
+}
+.search > input {
+    width: 190px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+    outline: none;
+
+ 
+}
+.search > input:hover {
+    width: 200px;
+    height: 55px;
+    font-size: 1.2em;
+    
+}
+.search > p{
+    font-size: 1.5em;
+
+}
+
+.search > p:hover {
+    cursor: pointer;
+    color: red;
+}
+.searchicon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+ margin-bottom: 10px;
+}
+
+
+.searchicon:hover {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.Room{
+    width: 250px;
+    height: 200px;
+ background-image: url(sources/room1.jpeg);
+    border-radius: 20px;
+    margin: 20px;
+display: flex;
+justify-content: space-between;
+
+    
+
+}
+.room:hover{
+    transform: translate(90);
+}
+
+
+.guest_fav{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.guest_fav:hover{
+    background-color: gray;
+}
+
+
+.heart{
+    width: 40px;
+    height: 40px; 
+
+}
+
+.heart:hover{
+color: rgb(255, 8, 8);
+background-color: rgb(255, 255, 255);
+width: 40px;
+height: 40px;
+border-radius:10px ;
+zoom: normal;
+cursor: pointer;
+outline: none;
+}
+
+
+.Popular{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+.room1{
+    width: 150px;
+    height: 90px;
+    color: black;
+    text-align: center;
+}
+
+.room1>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(104, 99, 99, 0.896);
+}
+
+.card{
+    box-shadow:  gray  1px  1px ;
+    border-radius: 10px;
+    
+}
